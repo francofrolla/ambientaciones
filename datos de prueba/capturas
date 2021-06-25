@@ -1,0 +1,2 @@
+Error in multispatipca() : 
+  CRS: diferente crs para poligonos y raster, por favor reproyecte las capas a un mismo sistema en metros
