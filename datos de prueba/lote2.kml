@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="lote2" id="lote2">
+	<SimpleField name="field_1" type="float"></SimpleField>
+	<SimpleField name="field_2" type="float"></SimpleField>
+	<SimpleField name="field_3" type="float"></SimpleField>
+	<SimpleField name="field_4" type="float"></SimpleField>
+	<SimpleField name="field_5" type="float"></SimpleField>
+</Schema>
+<Folder><name>lote2</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lote2">
+		<SimpleData name="field_1">-61.000000000000000</SimpleData>
+		<SimpleData name="field_2">-37.000000000000000</SimpleData>
+		<SimpleData name="field_3">17.000000000000000</SimpleData>
+		<SimpleData name="field_4">42.000000000000000</SimpleData>
+		<SimpleData name="field_5">216.000000000000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-61.5541326028024,-37.5171773249787 -61.5551464765502,-37.5177080440214 -61.5560048247316,-37.517242155398 -61.5571950822824,-37.5168039006842 -61.5577650587945,-37.5169127189373 -61.558199894648,-37.5163467405741 -61.5615021107267,-37.5119865344318 -61.557641275962,-37.509039673047 -61.5574705979103,-37.5091433194885 -61.5570102051441,-37.509603004373 -61.5568046223284,-37.5101461248419 -61.5565745435334,-37.5109470509754 -61.5563971547442,-37.5115853386184 -61.5566420720742,-37.5122495897884 -61.5566568803744,-37.5123189704904 -61.5568457022692,-37.5125159165416 -61.5574139120729,-37.5123477629279 -61.5578494145633,-37.5126112410004 -61.5578140868792,-37.5128141816379 -61.5576521260925,-37.5133002241236 -61.5566924114685,-37.5138231558438 -61.555742893081,-37.5149386955995 -61.5554839918631,-37.5158991678806 -61.5546645878835,-37.5163079596153 -61.5541326028024,-37.5171773249787</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
